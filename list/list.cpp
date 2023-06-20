@@ -2,6 +2,8 @@
 #include "list.h"
 using namespace std;
 
+// Tanat Tangsiriuksorn 650615019
+// Thanchanok Kaweekul 650615021
 List::~List() {
 	for(Node *p; !isEmpty(); ) {
 		p=head->next;
@@ -20,6 +22,7 @@ void List::pushToHead(char el)
 }
 void List::pushToTail(char el)
 {
+	
 	//TO DO!
 }
 char List::popHead()
